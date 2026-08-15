@@ -1,0 +1,16 @@
+{
+  "name": "everlinehq-proxy",
+  "version": "1.0.0",
+  "description": "Reverse proxy zodat Everline HQ-pagina's onder een eigen domein draaien in plaats van delacourt.app.n8n.cloud",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "http-proxy-middleware": "^2.0.6"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
